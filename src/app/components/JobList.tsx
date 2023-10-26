@@ -4,10 +4,10 @@ import Image from 'next/image';
 import { jobListings } from './Jobs';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation'
-import { useUser } from '@auth0/nextjs-auth0/client';
+
 
 const JobListingPage = () => {
-  const {user,error,isLoading}=useUser ()  
+ 
   
   const router=useRouter()
   const pageSize = 9; // Number of items per page
@@ -109,7 +109,7 @@ const JobListingPage = () => {
   </div>
 
   <div className="flex items-center justify-center">
-  <Link href="/api/auth/login">
+  <Link href="/">
    
     <button className="bg-yellow-400 text-black rounded-md px-8 py-4 w-full" >
       Sign Up

@@ -58,7 +58,7 @@ const router=useRouter()
 
           {/* Search Button */}
           
-          <button className="bg-blue-500 text-white rounded-md px-20 py-4 text-lg "  onClick={()=>router.push("#")}>Search</button>
+          <button className="bg-blue-500 text-white rounded-md px-20 py-4 text-lg "  onClick={()=>router.push("/")}>Search</button>
           
         </div>
       </div>
