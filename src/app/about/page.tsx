@@ -2,9 +2,9 @@ import React from 'react'
 import Nav from '../components/Nav'
 import HeroSection from '../components/HeroSection'
 import Aboutjob from '../components/Aboutjob'
-import {FaFacebook} from "react-icons/Fa"
-import {FaTwitter} from "react-icons/Fa"
-import {FaLinkedin} from "react-icons/Fa"
+import {FaFacebook} from "react-icons/fa"
+import {FaTwitter} from "react-icons/fa"
+import {FaLinkedin} from "react-icons/fa"
 import Link from 'next/link'
 import Counter from '../components/Counter'
 const about = () => {

@@ -3,9 +3,9 @@ import Image from 'next/image'
 import React, { useState } from 'react'
 import { jobListings } from './Jobs'
 import Link from 'next/link';
-import { FaFacebook} from 'react-icons/Fa';
-import {FaLinkedin} from 'react-icons/Fa';
-import {FaTwitter} from 'react-icons/Fa';
+import { FaFacebook} from 'react-icons/fa';
+import {FaLinkedin} from 'react-icons/fa';
+import {FaTwitter} from 'react-icons/fa';
 import { useRouter } from 'next/navigation'
  
 type JobDetailsProps = {
